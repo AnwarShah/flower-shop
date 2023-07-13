@@ -18,17 +18,58 @@ body{
     padding: 50px 240px;
     height: 800px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 .header-title{
     color: #272727;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 800;
 }
-
+.header-image{
+    height: 800px;
+}
 .header-description{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
+}
+
+/* section styles, common */
+section{
+    margin: 40px 20px;
+}
+
+.section-intro{
+    text-align: center;
+}
+
+.intro-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.intro-text{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section-cards{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.card-container{
+    text-align: center;
+}
+
+.curbed-card{
+    width: 464px;
+    max-height: 538px;
+    flex-shrink: 0;
 }
