@@ -38,7 +38,7 @@ body{
 
 /* section styles, common */
 section{
-    margin: 40px 20px;
+    margin: 40px 100px;
 }
 
 .section-intro{
@@ -60,8 +60,8 @@ section{
 
 .section-cards{
     display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 
 .card-container{
@@ -69,7 +69,16 @@ section{
 }
 
 .curbed-card{
-    width: 464px;
-    max-height: 538px;
-    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    background-color: #E55473;
+    padding-top: 30px;
+    width: 350px;
+    min-height: 450px;
+}
+
+.curbed-card-img {
+    width: 80%;
+    /* max-width: 300px; */
+    height: auto;
 }
