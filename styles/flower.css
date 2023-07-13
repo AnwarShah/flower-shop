@@ -82,3 +82,15 @@ section{
     /* max-width: 300px; */
     height: auto;
 }
+
+/* promotional section */
+.promotional-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:auto;
+    height: 450px;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 20px 160px;
+}
