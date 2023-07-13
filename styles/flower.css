@@ -1,0 +1,34 @@
+/* shared styles */
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    padding: 20px 43px;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* header styles */
+.header {
+    background-color: rgba(229, 84, 115, 0.1);
+    padding: 50px 240px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.header-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
