@@ -2,7 +2,6 @@
 body{
     font-family: 'Lato', sans-serif;
     margin: 0px;
-    margin-bottom: 40px;
 }
 
 .btn-primary{
@@ -125,4 +124,24 @@ section{
     border: 1px solid grey;
     border-radius: 8px;
     background: #FFF;
+}
+
+/* footer */
+#footer{
+    background-color: #111010;
+    color: white;
+    padding-bottom: 40px;
+}
+
+#footer .intro-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#footer .intro-text{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
