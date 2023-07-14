@@ -61,6 +61,7 @@ section{
 }
 
 .section-cards{
+    margin-top: 60px;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -95,4 +96,9 @@ section{
     border-radius: 8px;
     background-color: rgba(229, 84, 115, 0.05);
     padding: 20px 100px;
+}
+
+/* instagram section */
+.rect-card-img {
+    width: 250px;
 }
